@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotation Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Mes citations</h1>
+
+    <h2>Gestionnaire de citations en ligne</h2>
+    <h3 id="count">0 citations</h3>
+    <hr>
+
+    <form id="quote-form">
+        <label for="text"> <input id="text" type="text" placeholder="Votre Citation Préférée"></label>
+        <br/><br/>
+        <label for="author"> <input id="author" type="text" placeholder="Le Nom de l'auteur/autrice"></label>
+        <br/><br/>
+        <button type="submit" id="submit"><label id="validate">Valider</label></button>
+    </form>
+
+    <div id="quote-list">
+        <div class="quote">
+            <p class="text">"On ne naît pas femme, on le devient."</p>
+            <p class="author">Simone de Beauvoir</p>
+        </div>
+    </div>
+</body>
+</html>

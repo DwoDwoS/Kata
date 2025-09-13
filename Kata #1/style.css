@@ -1,0 +1,56 @@
+* {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+h1, h2, h3 {
+    color:black;
+}
+
+input {
+    /* box-shadow: rgb(57, 127, 129); */
+    color: black;
+}
+
+button {
+    display: inline-block;
+    padding: 20px 100px;
+    margin: 10px 4px;
+    background-color:cornflowerblue ;
+    color: black;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+#submit > button {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    padding: 20px 100px;
+    margin: 10px 4px;
+}
+
+#validate {
+    background-color: cornflowerblue;
+    position: relative;
+    top: -10px;
+    left: -28px;
+}
+
+input:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+p {
+    color: black;
+}
