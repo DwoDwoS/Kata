@@ -1,73 +1,62 @@
-### Kata 3
+# Recueil de Katas – ADA Tech School
 
-Crée une fonction drawMyPen(){:js} qui retourne l'état de ton crayon en ASCII Art en fonction du temps passé en cours. Tu trouveras un exemple de crayons ci-dessous. Attention, petite subtilité : la gomme a deux étages en début d'année scolaire, mais se réduit à un seul étage à partir du mois de mars.
+Bienvenue sur ce repository !  
+Il a pour but de centraliser l’ensemble de mes **katas** réalisés dans le cadre de ma formation à **[ADA Tech School](https://adatechschool.fr/)**.  
+Ces katas correspondent à différentes évaluations et exercices pratiques destinés à renforcer mes compétences en **développement web**.
 
-**Exemple :**
+---
 
-``` bash
-drawMyPen('septembre');
-// retourne un crayon à 10 étages avec une gomme à 2 étages
- /\
-/__\
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-|__|
-|  |
-|__|
+## Objectifs
 
-drawMyPen('fevrier');
-// retourne un crayon à 5 étages avec une gomme à 2 étages
- /\
-/__\
-||||
-||||
-||||
-||||
-||||
-|__|
-|  |
-|__|
+- Approfondir mes connaissances en algorithmie et en résolution de problèmes.  
+- Explorer différents **langages** et **frameworks** selon les besoins de chaque kata.  
+- Construire une base de code claire et réutilisable.  
+- Illustrer ma progression au fil de ma reconversion professionnelle.
 
-drawMyPen('mars');
-// retourne un crayon à 4 étages avec une gomme à 1 étage
- /\
-/__\
-||||
-||||
-||||
-||||
-|__|
-|__|
+---
 
-drawMyPen('juin');
-// retourne un crayon à 1 étage avec une gomme à 1 étage
- /\
-/__\
-||||
-|__|
-|__|
+## Outils & Technologies
+
+Les langages et frameworks utilisés peuvent varier d’un kata à l’autre. Parmi ceux que je compte utiliser :  
+
+- **JavaScript / TypeScript**  
+- **Node.js**  
+- **Python**  
+- **HTML / CSS**  
+- **React**  
+- (et potentiellement d’autres à venir…)
+
+---
+
+## Organisation du repository
+
+Chaque dossier correspond à un kata :  
 ```
-​
-**Annexe :**
-```js
-const calendrierDuCrayon = {
-    septembre: 10,
-    octobre: 9,
-    novembre: 8,
-    decembre: 7,
-    janvier: 6,
-    fevrier: 5,
-    mars: 4,
-    avril: 3,
-    mai: 2,
-    juin: 1,
-};
-``` 
+.
+├── kata-1/
+│ └── ...
+├── kata-2/
+│ └── ...
+└── kata-n/
+└── ...
+```
+
+Un fichier `README.md` pourra être ajouté à l’intérieur de certains dossiers pour expliquer la démarche ou les choix techniques spécifiques.
+
+---
+
+## Parcours
+
+Ce repository est aussi le reflet de mon parcours de **reconversion en tant que développeur web**.  
+Chaque kata est une étape supplémentaire vers mon objectif : devenir une développeuse capable de concevoir, comprendre et améliorer des projets variés.
+
+---
+
+## Contribution
+
+Ce repository est personnel, mais je reste ouverte aux suggestions et discussions autour des solutions proposées.  
+N’hésitez pas à créer une **issue** ou à ouvrir une **pull request** si vous souhaitez échanger sur un kata !
+
+---
+
+*Apprendre, pratiquer, progresser… un pas à la fois !*
